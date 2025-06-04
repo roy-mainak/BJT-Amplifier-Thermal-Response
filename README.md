@@ -45,7 +45,7 @@ The amplifier is configured in a **common-emitter topology** using a BC547C tran
 ## 🧪 Oscilloscope Validation
 
 <p align="center">
-  <img src="report/oscilloscope/" width="600" alt="Lab Scope Output">
+  <img src="report/oscilloscope/osc_low_temp_gain40.jpg" width="600" alt="Lab Scope Output">
 </p>
 
 The real circuit measured at low temperature closely matches the simulation, showing ~40× gain and clean waveform shape.
