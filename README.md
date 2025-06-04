@@ -66,14 +66,6 @@ BJT-Amplifier-Thermal-Response/
 
 ---
 
-## 📘 Report
-
-The full analysis with gain estimation, waveform discussion, and LaTeX source is in:
-
-📄 [`BJT_Temperature_Report.pdf`](./report/BJT_Temperature_Report.pdf)
-
----
-
 ## 🛠 Tools Used
 
 - LTspice XVII
