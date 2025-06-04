@@ -55,6 +55,7 @@ The real circuit measured at low temperature closely matches the simulation, sho
 ## 📂 Repository Structure
 
 ```
+BJT-Amplifier-Thermal-Response/
 ├── data/ # Output waveform files from LTspice (temp -10 to 70°C)
 ├── ltspice/ # .asc schematic file
 ├── report/
@@ -75,6 +76,5 @@ The real circuit measured at low temperature closely matches the simulation, sho
 
 ## 👨‍🔬 Author
 
-Mainak Roy
-Universität Siegen 
+Mainak Roy | Universität Siegen 
 
