@@ -54,7 +54,7 @@ The real circuit measured at low temperature closely matches the simulation, sho
 
 ## 📂 Repository Structure
 
-BJT-Amplifier-Thermal-Response/
+
 ├── data/ # Output waveform files from LTspice (temp -10 to 70°C)
 ├── ltspice/ # .asc schematic file
 ├── report/
@@ -65,6 +65,25 @@ BJT-Amplifier-Thermal-Response/
 └── README.md
 
 ---
+BJT-Amplifier-Thermal-Response/
+├── schematic/                     # LTspice schematic file
+│   └── NJ.asc
+│
+├── simulation/                    # Exported gain data + LTspice plot
+│   ├── jfet_frequency_response.png
+│
+├── plots/                         # Python plot script and image
+│   ├── gain_plot_python.py
+│   └── gain_plot_output.png
+│
+├── report/                        # Lab PDF reports and analysis
+│   ├── JFET_Amplifier_Simulation_Report.pdf
+│   └── JFET_Cutoff_Miller_Effect_Analysis.pdf
+│
+├── data/                          # Raw data if needed
+│   └── NJ_Plot_Data.txt
+│
+└── README.md
 
 ## 🛠 Tools Used
 
