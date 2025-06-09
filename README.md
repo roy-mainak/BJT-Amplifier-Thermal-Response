@@ -45,7 +45,7 @@ The amplifier is configured in a **common-emitter topology** using a BC547C tran
 ## 🧪 Oscilloscope Validation
 
 <p align="center">
-  <img src="report/oscilloscope/" width="600" alt="Lab Scope Output">
+  <img src="report/oscilloscope/osc_low_temp_gain40.jpg" width="600" alt="Lab Scope Output">
 </p>
 
 The real circuit measured at low temperature closely matches the simulation, showing ~40× gain and clean waveform shape.
@@ -54,6 +54,7 @@ The real circuit measured at low temperature closely matches the simulation, sho
 
 ## 📂 Repository Structure
 
+```
 BJT-Amplifier-Thermal-Response/
 ├── data/ # Output waveform files from LTspice (temp -10 to 70°C)
 ├── ltspice/ # .asc schematic file
@@ -63,16 +64,7 @@ BJT-Amplifier-Thermal-Response/
 │ ├── Schematic.png # Circuit schematic image
 │ └── oscilloscope/ # Lab photos from Rohde & Schwarz
 └── README.md
-
----
-
-## 📘 Report
-
-The full analysis with gain estimation, waveform discussion, and LaTeX source is in:
-
-📄 [`BJT_Temperature_Report.pdf`](./report/BJT_Temperature_Report.pdf)
-
----
+```
 
 ## 🛠 Tools Used
 
@@ -84,6 +76,5 @@ The full analysis with gain estimation, waveform discussion, and LaTeX source is
 
 ## 👨‍🔬 Author
 
-Mainak Roy
-Universität Siegen 
+Mainak Roy | Universität Siegen 
 
