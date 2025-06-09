@@ -1,0 +1,14 @@
+stages:
+  - report
+
+compile-report:
+  stage: report
+  image: blang/latex:ctanfull  # LaTeX environment Docker image
+  script:
+    - cd report
+    - pdflatex BJT_Temperature_Report.tex
+    - pdflatex BJT_Temperature_Report.tex  # Twice to resolve references
+  artifacts:
+    paths:
+      - report/main.pdf
+    expire_in: 1 week
