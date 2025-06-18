@@ -24,7 +24,7 @@ The amplifier is configured in a **common-emitter topology** using a BC547C tran
 - Capacitor-coupled input and output
 
 <p align="center">
-  <img src="report/Schematic.png" width="500" alt="LTspice Schematic">
+  <img src="report/schematic.png" width="500" alt="LTspice Schematic">
 </p>
 
 ---
